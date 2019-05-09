@@ -1,0 +1,48 @@
+.contact_container {
+margin-left: 10em;
+}
+
+.form {
+    width: 30%;
+    margin-left: 3em;
+    padding: 20px;
+}
+
+.data_contact {
+    position: absolute;
+    bottom: -10em;
+    margin-left: 25em;
+    font-size: 16pt;
+}
+
+.label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden !important;
+    color: #ffffff;
+}
+
+.address {
+    text-indent: 0;
+    text-align: left;
+}
+
+.mapouter {
+    position: absolute;
+    bottom: -18em;
+    text-align: right;
+    height: 450px;
+    width: 4500px;
+    margin-left: 32em;
+}
+
+.gmap_canvas {
+    position: absolute;
+    bottom: -16em;
+    overflow: hidden;
+    background: none!important;
+    height: 450px;
+    width: 450px;
+    margin-left: 30em;
+}
+
