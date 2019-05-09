@@ -1,0 +1,22 @@
+[2018-11-23 10:17:27] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:167)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(490): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('Undefined class...', Array)
+#4 C:\\xampp\\htdocs\\ict-engineering.bg\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(353): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(132): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\xampp\\htdocs\\ict-engineering.bg\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2018-11-23 10:17:27] laravel.ERROR: Undefined class constant 'calss' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Undefined class constant 'calss' at C:\\xampp\\htdocs\\ict-engineering.bg\\config\\app.php:163)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(72): require()
+#1 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 C:\\xampp\\htdocs\\ict-engineering.bg\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 C:\\xampp\\htdocs\\ict-engineering.bg\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
